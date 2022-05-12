@@ -40,7 +40,7 @@
                             <li class="nav-item"><a id="facilities-link" href="#">Zařízení</a></li>
                             <li class="nav-item"><a id="contact-link" href="#">Kontakt</a></li>
                             <li>
-                                <a href="#" class="primary-btn" id="btn-res">Rezervace</a>
+                                <a href="#" class="primary-btn btn-res">Rezervace</a>
                             </li>
                         </ul>
                     </div>
@@ -142,13 +142,16 @@
             <div class="col-lg-6">
                 <div class="about-text">
                     <div class="section-title">
-                        <h2>“Customers love our <br/>facilities”</h2>
+                        <h2>&#8222;Co naši hosté u nás milují&#8220;</h2>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero mauris, bibendum eget
-                        sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna fermentum ornare. Morbi vel
-                        ultrices leo. Sed eu turpis eu arcu vehicula fringilla ut vitae orci. Suspendisse maximus
-                        malesuada. </p>
-                    <a href="#" class="primary-btn">Zarezervujte si pobyt!</a>
+                    <p>Klidná lokalita dává prostor k odpočinku, sportu a vodním radovánkám. Naše ubytování nabízí
+                        nevšední zážitek, který jinde nenajdete. Nechte se rozmazlovat čistou přírodou, možností si vyrazit na
+                        výlet nebo si zajít na uvolňující masáž a to vždy v klidu a pohodě. Ale nemusíte jen odpočívat, naše
+                        ubytování je jiné a vždy nabízí víc! Chcete grilovat, chcete se procházet zahradou nebo dokonce rádi
+                        něco zasadíte či byste chtěli posekat trávu nebo něco porýt? To u nás není problém a nemusíte nic
+                        řešit s ostatními hosty, jsme tu přeci pro Vás pro Váš zážitek a nikdo Vás nebude rušit.
+                         </p>
+                    <a href="#" class="primary-btn btn-res">Neváhejte a rezervujte si svůj pobyt co nejdříve!</a>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -248,7 +251,7 @@
 
     window.initMap = initMap;
 
-    $('#btn-res').click(function () {
+    $('.btn-res').click(function () {
         $('#rezervace').toggle();
         $('html, body').animate({
             scrollTop: $("#rezervace").offset().top

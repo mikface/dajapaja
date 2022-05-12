@@ -5320,6 +5320,6 @@ a {
     }
 }
 
-a#btn-res:hover{
-    color: black;
+a.btn-res:hover, a.btn-res:active{
+    color: black !important;
 }
