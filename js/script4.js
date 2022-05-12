@@ -30,8 +30,8 @@
     /*------------------
 		Date Picker
 	--------------------*/
-    $(".datepicker-1").datepicker();
-    $(".datepicker-2").datepicker();
+    $(".datepicker-1").datepicker({ dateFormat: 'dd / mm / yy' });
+    $(".datepicker-2").datepicker({ dateFormat: 'dd / mm / yy' });
 
     /*------------------
         Milestone Counter

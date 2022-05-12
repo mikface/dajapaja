@@ -5316,7 +5316,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 992px) {
     li.nav-item {
         padding-top: 20px !important;
     }
@@ -5333,6 +5333,7 @@ a {
         max-width: 80vw;
     }
 }
+
 a.btn-res:hover, a.btn-res:active{
     color: black !important;
 }
