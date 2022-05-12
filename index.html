@@ -262,9 +262,9 @@
     window.initMap = initMap;
 
     $('.btn-res').click(function () {
-        $('#rezervace').toggle();
+        $('#rezervace').show();
         $('html, body').animate({
-            scrollTop: $("#rezervace").offset().top
+            scrollTop: $("#rezervace").offset().top - 20
         }, 1);
     });
 
