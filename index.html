@@ -245,6 +245,7 @@
                         map: map
                     });
                     map.setCenter({lat: 35.3059, lng: 83.1435});
+                    map.setOptions({draggable: false, zoomControl: false, scrollwheel: false, disableDoubleClickZoom: true});
                 }
             });
         const map = new google.maps.Map(document.getElementById("map"), {
@@ -255,6 +256,7 @@
             map: map,
         });
     }
+
 
     window.initMap = initMap;
 
