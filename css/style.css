@@ -3816,7 +3816,6 @@ ul, ol {
 }
 
 .check-form .room-quantity {
-    width: calc(29% - 16px);
     float: left;
     margin-right: 16px;
     background: #fff;
@@ -4951,7 +4950,6 @@ ul, ol {
     }
 
     .check-form .room-quantity {
-        width: calc(36% - 16px);
         margin-right: 10px
     }
 
