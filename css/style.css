@@ -3620,7 +3620,7 @@ ul, ol {
 }
 
 .inner-header .main-menu {
-    margin-right: 30px;
+    margin-right: -10px;
     display: block
 }
 
@@ -5334,6 +5334,6 @@ a {
     }
 }
 
-a.btn-res:hover, a.btn-res:active{
+a.btn-res:hover, a.btn-res:active {
     color: black !important;
 }
