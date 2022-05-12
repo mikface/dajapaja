@@ -5021,11 +5021,8 @@ ul, ol {
 
     .check-form .room-quantity {
         width: 100%;
-        margin-right: 0
-    }
-
-    .check-form .room-quantity .single-quantity {
-        margin-right: 80px
+        margin-right: 0;
+        text-align: center;
     }
 
     .check-form .room-selector {
