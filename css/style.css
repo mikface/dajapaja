@@ -4161,7 +4161,7 @@ ul, ol {
 .footer-item h5 {
     color: #f9ad81;
     font-weight: 500;
-    margin-bottom: 57px
+    margin-bottom: 27px
 }
 
 .footer-item .newsletter-form {
@@ -5299,7 +5299,8 @@ ul, ol {
 }
 
 #resort-logo {
-    border-radius: 80px;
+    border-radius: 50px;
+    max-height: 180px;
 }
 
 a {
